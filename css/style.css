@@ -97,6 +97,14 @@ a img {
   src: url("../font/coveredbyyourgrace-webfont.eot");
   src: url("../font/coveredbyyourgrace-webfont.eot?#iefix") format('embedded-opentype'), url("../font/coveredbyyourgrace-webfont.svg#covered_by_your_graceregular") format('svg'), url("../font/coveredbyyourgrace-webfont.woff") format('woff'), url("../font/coveredbyyourgrace-webfont.ttf") format('truetype');
 }
+/* title Font*/
+@font-face {
+  font-family: "Go_Boom";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../font/GoBoom.eot");
+  src: url("../font/GoBoom.eot?#iefix") format('embedded-opentype'), url("../font/GoBoom.svg#Go_Boom") format('svg'), url("../font/GoBoom.woff") format('woff'), url("../font/GoBoom.ttf") format('truetype');
+}
 /* icon Font */
 @font-face {
   font-family: "FontAwesome";
@@ -426,7 +434,7 @@ body >header a {
 }
 #textlogo h1.site-name {
   width: 86%;
-  font-family: "covered_by_your_graceregular";
+  font-family: "Go_Boom";
   font-size: 200%;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -1538,6 +1546,9 @@ section.comment {
 .categorieslist li a:hover {
   color: #ea6753;
 }
+.tagslist {
+  margin: 1em 0 0;
+}
 @media only screen and (min-width: 768px) {
   .tagslist {
     width: 45%;
@@ -1552,12 +1563,21 @@ section.comment {
     margin: 1em 0 0;
   }
 }
-.tagslist li a {
-  display: block;
-  padding: 0.5em 5%;
+.tagslist ul {
+  padding: 0.5em 0;
 }
-.tagslist li a:hover {
+.tagslist ul li {
+  float: left;
+}
+.tagslist ul li a {
+  display: block;
+  margin: 0.3125em;
+  padding: 0.125em 0.3125em;
+  background: #dbdbdb;
+}
+.tagslist ul li a:hover {
   color: #ea6753;
+  background: #e6e6e6;
 }
 @media only screen and (min-width: 768px) {
   .blogrollslist {
