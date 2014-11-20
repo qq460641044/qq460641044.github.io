@@ -1528,18 +1528,12 @@ section.comment {
     margin: 1em 0 0;
   }
 }
-.categorieslist li {
-  border-bottom: 1px solid #ccc;
-}
 .categorieslist li a {
   display: block;
   padding: 0.5em 5%;
 }
 .categorieslist li a:hover {
   color: #ea6753;
-}
-.tagslist {
-  margin: 1em 0 0;
 }
 @media only screen and (min-width: 768px) {
   .tagslist {
@@ -1555,21 +1549,33 @@ section.comment {
     margin: 1em 0 0;
   }
 }
-.tagslist ul {
-  padding: 0.5em 0;
-}
-.tagslist ul li {
-  float: left;
-}
-.tagslist ul li a {
+.tagslist li a {
   display: block;
-  margin: 0.3125em;
-  padding: 0.125em 0.3125em;
-  background: #dbdbdb;
+  padding: 0.5em 5%;
 }
-.tagslist ul li a:hover {
+.tagslist li a:hover {
   color: #ea6753;
-  background: #e6e6e6;
+}
+@media only screen and (min-width: 768px) {
+  .blogrollslist {
+    width: 45%;
+    float: left;
+    margin: 0 5% 0 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .blogrollslist {
+    width: 100%;
+    float: none;
+    margin: 1em 0 0;
+  }
+}
+.blogrollslist li a {
+  display: block;
+  padding: 0.5em 5%;
+}
+.blogrollslist li a:hover {
+  color: #ea6753;
 }
 .rsspart {
   background: #ea6753;
@@ -1750,7 +1756,7 @@ footer {
 @media only screen and (min-width: 768px) {
   #footer .line span {
     position: absolute;
-    left: 3em;
+    left: 2.9em;
     margin: 0 0 1.5em;
   }
 }
