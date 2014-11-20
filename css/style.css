@@ -1528,6 +1528,9 @@ section.comment {
     margin: 1em 0 0;
   }
 }
+.categorieslist li {
+  border-bottom: 1px solid #ccc;
+}
 .categorieslist li a {
   display: block;
   padding: 0.5em 5%;
