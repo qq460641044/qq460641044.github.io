@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[HxnEat's blog]]></title>
+  <subtitle><![CDATA[Just for sharing]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://hxneat.com/"/>
+  <updated>2014-11-20T04:28:37.160Z</updated>
+  <id>http://hxneat.com/</id>
+  
+  <author>
+    <name><![CDATA[Hxn]]></name>
+    <email><![CDATA[xunanhuo-web@foxmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hello World ！]]></title>
+    <link href="http://hxneat.com/2014/11/16/hello-world/"/>
+    <id>http://hxneat.com/2014/11/16/hello-world/</id>
+    <published>2014-11-15T16:00:00.000Z</published>
+    <updated>2014-11-17T05:41:16.000Z</updated>
+    <content type="html"><![CDATA[<p>Hello world!  </p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Hello world!  </p>
+]]>
+    </summary>
+    
+      <category term="The Beginning" scheme="http://hxneat.com/tags/The-Beginning/"/>
+    
+      <category term="Blog" scheme="http://hxneat.com/categories/Blog/"/>
+    
+  </entry>
+  
+</feed>
